@@ -17,5 +17,7 @@ include_directories(include)
 
 add_executable(000_ls 000_ls.c)
 add_executable(001_file_io 001_file_io.c)
+add_executable(002_buffered_file_io 002_buffered_file_io.c)
 target_link_libraries(000_ls apue)
 target_link_libraries(001_file_io apue)
+target_link_libraries(002_buffered_file_io apue)

@@ -32,4 +32,5 @@
   * 不带缓冲的I/O：``open write read lseek close``
     * ``unistd.h`` 常量STDIN_FILENO STDOUT_FILENO
   * 标准I/O
+    * ``getc putc stdin stdout EOF``  stdio.h
 
